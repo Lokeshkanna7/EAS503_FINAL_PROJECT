@@ -1,0 +1,11 @@
+From python:3.12.4
+
+WORKDIR/code
+
+copy./requirements.txt/code.requirements.txt
+
+run pip install --no-cache-dir --upgrade -r/code/requirements.txt
+
+copy./app/code/app
+
+CMD [ "fastap","run","app/main.py","--port","80" ]
