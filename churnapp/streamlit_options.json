@@ -1,0 +1,26 @@
+{
+  "silder_fields": {
+    "Age": [
+      18,
+      92
+    ],
+    "Balance": [
+      0,
+      250899
+    ],
+    "NumOfProducts": [
+      1,
+      4
+    ],
+    "EstimatedSalary": [
+      11,
+      199993
+    ]
+  },
+  "single_select_fields": {
+    "Exited": [
+      1,
+      0
+    ]
+  }
+}
